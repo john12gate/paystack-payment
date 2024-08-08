@@ -1,0 +1,72 @@
+.payment-form {
+    margin-top: 50px;
+    /*background: linear-gradient(135deg, #f8f9fa, #e9ecef);*/
+    border-radius: 10px;
+    /*box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);*/
+    padding: 30px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.payment-form h2 {
+    color: #343a40;
+    margin-bottom: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.payment-form .form-group {
+    margin-bottom: 20px;
+}
+
+.payment-form .form-control {
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-size: 16px;
+}
+
+.payment-form .form-control:focus {
+    border-color: #80bdff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.25);
+}
+
+.payment-form .form-label {
+    color: #495057;
+    font-weight: 600;
+}
+
+.payment-form .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    font-weight: 600;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.payment-form .btn-primary:disabled {
+    background-color: #6c757d;
+    border-color: #6c757d;
+}
+
+.payment-form .btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+}
+
+.payment-form .alert {
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+body {
+    font-family: 'Share Tech', sans-serif;
+    /*background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='28' height='49' viewBox='0 0 28 49'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='hexagons' fill='%239C92AC' fill-opacity='0.25' fill-rule='nonzero'%3E%3Cpath d='M13.99 9.25l13 7.5v15l-13 7.5L1 31.75v-15l12.99-7.5zM3 17.9v12.7l10.99 6.34 11-6.35V17.9l-11-6.34L3 17.9zM0 15l12.98-7.5V0h-2v6.35L0 12.69v2.3zm0 18.5L12.98 41v8h-2v-6.85L0 35.81v-2.3zM15 0v7.5L27.99 15H28v-2.31h-.01L17 6.35V0h-2zm0 49v-8l12.99-7.5H28v2.31h-.01L17 42.15V49h-2z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E"), linear-gradient(to right top, #343a40, #2b2c31, #211f22, #151314, #000000);*/
+}
+
+h1 {
+    margin: 20px;
+}
